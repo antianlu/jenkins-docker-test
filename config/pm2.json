@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "docker-test",
+      "script": "app.js",
+      "cwd": "./",
+      "error_file": "./logs/err.log",
+      "out_file": "./logs/out.log",
+      "exec_mode": "cluster_mode",
+      "instances": 4,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "max_memory_restart": "300M",
+      "log_date_format": "YYYY - MM - DD HH: mm Z"
+    }
+  ]
+}
