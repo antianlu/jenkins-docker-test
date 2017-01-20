@@ -1,4 +1,4 @@
-FROM daocloud.io/node:6_5_0
+FROM daocloud.io/node:5
 MAINTAINER atlatl333@126.com
 
 # node run port
